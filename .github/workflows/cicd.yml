@@ -1,3 +1,5 @@
+name: For every push
+on: [push,issues]
 jobs:
   say-hello:
     runs-on: ubuntu-latest
